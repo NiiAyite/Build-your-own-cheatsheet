@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins', serif;
+}
+
+body h1.header {
+    font-family: 'Poppins', serif;
+    text-transform: uppercase;
+}
+
+body ul {
+    list-style: none;
+}
+
+body ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+body ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+body div.colors {
+    margin-bottom: 100px;
+}
+
+body ul li a:hover {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+body main {
+    text-align: center;
+}
+
+body main div.colors div.color-boxes {
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    text-align: left;
+}
+
+body main div.colors div.blury-wood {
+    background-color: rgb(222,184,135);
+}
+
+body main div.colors div.crimson {
+    background-color: rgb(220,20,60);
+    color: #fff;
+}
+
+body main div.colors div.forest-green {
+    background-color: rgb(34,139,34);
+}
+
+body main a {
+    color: #000;
+    text-decoration: none;
+    background-color: aquamarine;
+    padding: 5px;
+}
+
+body div.font-box {
+    text-align: left;
+    border: 2px solid rgba(0, 0, 0, 0.724);
+    padding: 10px;
+}
+
+.sans-serif {
+    font-family: 'Aref Ruqaa';
+}
+
+div.font-box {
+    margin: 20px;
+}
+
+body div.bold p {
+    font-weight: bold;
+}
+
+body div.italics p {
+    font-style: italic;
+}
+
+body div.text-box {
+    border: 2px solid rgba(0, 0, 0, 0.724);
+    margin: 10px;
+}
