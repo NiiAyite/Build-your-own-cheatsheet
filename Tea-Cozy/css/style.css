@@ -1,0 +1,110 @@
+* {
+    font-family: 'Helvetica' sans-serif;
+    opacity: 0.9;
+    font-size: 22px;
+    color: seashell;
+    background-color: #000000;
+}
+
+/* Header */
+nav {
+    height: 69px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+}
+
+nav ul.nav-items {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav ul.nav-items li {
+    padding-left: 20px;
+}
+
+img.logo {
+    height: 50px;
+    margin-left: 10px;
+    padding-top: 10px ;
+}
+
+div.mission {
+    background: url(../images/img-mission-background.jpg) no-repeat center;
+    height: 700px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Main */
+main .tea-of-the-month-container {
+    width: 1000px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 25%;
+}
+
+main .tea-of-the-month-container .tea-of-the-month-pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main .tea-of-the-month-container .tea-of-the-month-pics .pic-container img.pic {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+
+main .locations {
+    background: url(../images/img-locations-background.jpg) no-repeat center;
+    height: 500px;
+    text-align: center;
+}
+
+main .locations .title {
+    opacity: 1;
+    background-color: transparent;
+    padding-top: 30px;
+}
+
+main .locations-cards {
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    background-color: transparent;
+    padding: 15px;
+}
+
+main .locations-cards div.downtown,
+div.east-bayside,
+div.oakdale {
+    margin: 40px;
+    padding: 15px;
+    background-color: #000000;
+    opacity: 1;
+}
+
+.downtown,
+.east-bayside,
+.oakdale,
+h3,
+p {
+    background-color: transparent;
+}
+
+/* Footer */
+footer .info {
+    height: 200px;
+    text-align: center;
+}
+
+footer .copyright {
+    margin-right: 20px;
+}
