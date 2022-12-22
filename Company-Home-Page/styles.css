@@ -1,0 +1,172 @@
+/* Universal Styles */
+html {
+    font-size: 16px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+    color: rgb(43, 36, 36);
+    text-align: center;
+}
+
+/*-- Header --*/
+
+/* Navigation */
+header nav {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px dashed rgb(43, 36, 36);
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+header nav h2 a {
+    text-decoration: none;
+    color: rgb(43, 36, 36);
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    margin: 1rem;
+}
+
+header nav ul li:hover {
+    letter-spacing: 0.2rem;
+}
+
+header nav ul li  a {
+    text-decoration: none;
+    color: rgb(43, 36, 36);
+}
+
+/* Hero section */
+div.mission {
+    background-image: url(./images/viktor-jakovlev-H0vuplqoX0c-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10rem;
+    color: #ffffff;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+a.btn {
+    background-color: #ffffff;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+
+a.btn:hover {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+/*-- Main --*/
+
+/* Portfolio */
+main section.portfolio {
+    text-align: center;
+}
+
+main section.portfolio h1 {
+    margin: 3rem;
+}
+
+main section.portfolio div.images {
+    display: flex;
+    justify-content: center;
+}
+
+main section.portfolio div.images .image-containers {
+    max-width: 30%;
+    margin: 2rem;
+}
+
+main section.portfolio div.images .image-containers img {
+    width: 100%;
+    border-radius: 3rem;
+}
+
+/* Team */
+main section.team {
+    background-image: url('./images/gabe-l1sqXJXBgd0-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: cover;
+    padding: 3rem;
+    color: #ffffff;
+}
+
+main section.team .team-members {
+    display: flex;
+    justify-content: center;
+}
+
+main section.team .team-members .member-img-container {
+    max-width: 15%;
+    margin: 2rem;
+}
+
+main section.team .team-members .member-img-container img{
+    width: 100%;
+    border-radius: 2rem;
+}
+
+/* Testimonials */
+section.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.testimonials .customer {
+    max-width: 10%;
+}
+
+section.testimonials .customer img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.text {
+    text-align: left;
+}
+
+/*-- Footer --*/
+footer {
+    text-align: left;
+    color: #ffffff;
+    background-color: #000000ce;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    padding: 0.5rem;
+}
+
+footer .footer-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyright {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
