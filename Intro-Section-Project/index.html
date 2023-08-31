@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <script src="./js/main.js"></script>
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="left-side">
+        <h1 class="title">snap</h1>
+
+        <ul class="nav-links">
+          <li class="nav-items special">
+            Features
+            <i class="uil uil-angle-down" id="feature-arrow-down"></i>
+            <i class="uil uil-angle-up up" id="feature-arrow-up"></i></li>
+          <li class="nav-items special">
+            Company
+            <i class="uil uil-angle-down" id="company-arrow-down"></i>
+            <i class="uil uil-angle-up up" id="company-arrow-up"></i></li>
+          </li>
+          <li class="nav-items">Careers</li>
+          <li class="nav-items special">About</li>
+        </ul>
+      </div>
+
+      <div class="right-side">
+        <p>Login</p>
+        <a href="#">Register</a>
+      </div>
+
+      <div class="burger">
+        <img src="./images/icon-menu.svg" alt="Burger">
+      </div>
+    </nav>
+
+    <div class="features-dropdown" id="feature-dropdown"> 
+      <ul class="dropdown-container">
+        <li class="dropdown-links"><img src="./images/icon-todo.svg" alt="Todo" />Todo List</li>
+        <li class="dropdown-links"><img src="./images/icon-calendar.svg" alt="Calender" />Calender</li>
+        <li class="dropdown-links"><img src="./images/icon-reminders.svg" alt="Bell" />Reminders</li>
+        <li class="dropdown-links"><img src="./images/icon-planning.svg" alt="Clock" />Planning</li>
+      </ul>
+    </div>
+
+    <div class="company-dropdown" id="company-dropdown"> 
+      <ul class="company-container">
+        <li class="company-links">History</li>
+        <li class="company-links">Our Team</li>
+        <li class="company-links">Blog</li>
+      </ul>
+    </div>
+
+    <div class="hero-section">
+
+      <div class="hero-image-mobile">
+        <img src="./images/image-hero-mobile.png" alt="Hero image mobile" class="mobile">
+      </div>
+
+      <div class="about">
+        <h1 class="hero-heading">Make remote work</h1>
+        <p class="hero-text">
+          Get your team in sync, no matter your location.
+          Streamline processes, create teaam rituals, and
+          watch productivity soar.
+        </p>
+        <button class="btn">Learn more</button>
+        
+        <div class="sponsors">
+          <img src="./images/client-databiz.svg" alt="Databiz">
+          <img src="./images/client-audiophile.svg" alt="Audio phile">
+          <img src="./images/client-meet.svg" alt="Meet">
+          <img src="./images/client-maker.svg" alt="Maker">
+        </div>
+
+      </div>
+      <div class="hero-image-pc">
+        <img src="./images/image-hero-desktop.png" alt="Hero image pc" class="pc">
+      </div>
+    </div>
+  </header>
+
+</body>
+</html>
+
+<!-- <div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Your Name Here</a>.
+</div> -->
